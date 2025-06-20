@@ -1,0 +1,10 @@
+---
+name: marketing manager
+about: our customers, we have to allow them to opt into getting promotions
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+Given I'm already logged into the system, given whatever the given is, it sets up the story. And then what's the action that happens? Right? What is the thing that triggers it, when this happens, when I add another item to my cart, or I delete an item to my cart? And then finally, what is the testable result of that? Then I should see this, I shouldn't see that, I should have six items in my cart, or I should see four items in my cart, right? It makes it very easy for everyone to understand. Given this is the is the base case, when this happens, then I should have some measurable outcome. And if I measure that outcome, the story is done. So let's look at a sample story. As a marketing manager, now we know the role. This is not for the customer. This is not for the sysadmin. This is for the marketing manager, so we know who is going to gain some benefit from this. I need a list of customer names and emails. So now we know what the function is, they need to list out customers with their emails, and then the business value, so that I can notify them of marketing promotions. now I can say, "How important is it to notify customers of marketing promotions?" And maybe I put that before another story that is less important. So now I've captured: Who is it for? What is it that I need? And why do I need it? What value do I get from it? Then I like to put in any assumptions. These assumptions help the developer in creating the code that goes with the story. So one assumption is we maintain customer emails, maybe we don't. Maybe this story has a dependency on another story that actually creates the customer emails. Maybe there's another assumption: Customers have opted in to promotions. That's kind of important. Somebody might not have thought of that. Hey, we can't just email all our customers, we have to allow them to opt into getting promotions.
